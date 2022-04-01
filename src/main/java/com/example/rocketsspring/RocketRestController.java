@@ -10,7 +10,6 @@ public class RocketRestController {
 
     public RocketRestController(RocketService rocketService) {
         this.rocketService = rocketService;
-
     }
 
     @GetMapping("/rockets")

@@ -55,7 +55,6 @@ public class Rocket {
     private void checkPowerPropeller(int powerPropeller) throws Exception {
         if(powerPropeller <= 0) throw new Exception("El valor debe ser mayor a cero");
     }
-//preguntar si puedo ponerlo aquí o si separo el result
 
     @JsonProperty(value = "currentPower")
     public String showPropellersStatus (){
